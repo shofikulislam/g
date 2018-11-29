@@ -335,8 +335,8 @@ font-weight: 700;
 
 .hero-content h1 {
     color: #fff;
-    font-size: 50px;
-    font-weight: 900;
+    font-size: 36px;
+    font-weight: 500;
 }
 .button {
     background:  #98cb2b;
@@ -474,7 +474,7 @@ right:  auto;
 }
 .owl-nav [class*=owl-]:hover {
 background:  none !important;
-color: #000;
+color: #98cb2b !important;
 }
 .hero-area.owl-carousel .owl-nav [class*=owl-] {
 opacity: 0;
