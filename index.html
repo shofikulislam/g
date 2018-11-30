@@ -8,14 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <!-- Site Title -->
 	<title>Glorious Gutters</title>
-	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+	<link rel="shortcut icon" href="img/favicon.png">
 	<!-- CSS =================================================-->
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<!-- Alertify CSS -->
-	<link rel="stylesheet" type="text/css" href="css/alertify.min.css">
-	<!-- Default CSS -->
-	<link rel="stylesheet" type="text/css" href="css/default.css">
 	<!-- Fontawesome CSS -->
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<!-- Animate CSS -->
@@ -112,7 +108,7 @@
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="hero-content text-center animated">
-							<h1>We will clean the gutters AND take away all the debris,leaving your gutters to be able to do the job that they were made for</h1>
+							<h1>We will clean the gutters and take away all the debris,leaving your gutters to be able to do the job that they were made for</h1>
 							<h3>We provide best service at <span>$100</span> inc. GST</h3>
 							<p>Lorem ipsum dolor sit amet, nam at tibique persequeris mediocritatem. Eos legere tibique consetetur an. Solum principes mea ex, sed ea affert volumus. Mea unum scribentur liberavisse te, no pro antiopam mnesarchum instructior, at utroque</p>
 							<a href="#contact" class="button">Book Online</a>
@@ -126,12 +122,12 @@
 			<!-- End Container -->
 		</div>
 		<!-- End Hero Area Slider 1 -->
-		<div class="hero-area-slider hero-bg-1">
+		<div class="hero-area-slider hero-bg-2">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="hero-content text-center animated">
-							<h1>A Professional in <span> cleaning & Quality </span></h1>
+							<h1>We will clean the gutters and take away all the debris,leaving your gutters to be able to do the job that they were made for</h1>
 							<h3>We provide best service at <span>$100</span> inc. GST</h3>
 							<p>Lorem ipsum dolor sit amet, nam at tibique persequeris mediocritatem. Eos legere tibique consetetur an. Solum principes mea ex, sed ea affert volumus. Mea unum scribentur liberavisse te, no pro antiopam mnesarchum instructior, at utroque</p>
 							<a href="#" class="button">Book Online</a>
@@ -145,12 +141,12 @@
 			<!-- End Container -->
 		</div>
 		<!-- End Hero Area Slider 2 -->
-		<div class="hero-area-slider hero-bg-1">
+		<div class="hero-area-slider hero-bg-3">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="hero-content text-center animated">
-							<h1>A Professional in <span> cleaning & Quality </span></h1>
+							<h1>We will clean the gutters and take away all the debris,leaving your gutters to be able to do the job that they were made for</h1>
 							<h3>We provide best service at <span>$100</span> inc. GST</h3>
 							<p>Lorem ipsum dolor sit amet, nam at tibique persequeris mediocritatem. Eos legere tibique consetetur an. Solum principes mea ex, sed ea affert volumus. Mea unum scribentur liberavisse te, no pro antiopam mnesarchum instructior, at utroque</p>
 							<a href="#" class="button">Book Online</a>
@@ -204,7 +200,7 @@
 				<div class="col-lg-12">
 					<div class="service-list owl-carousel owl-theme">
 						<div class="single-service-list">
-							<img src="img/service-img-1.jpg" alt="" style="width: 100%; height: 150px;">
+							<img src="img/service-img-1.jpg" alt="">
 							<div class="service-meta">
 								<h4>Gutter cleaning</h4>
 							</div>
@@ -212,7 +208,7 @@
 						</div>
 						<!-- End Single Service List 1 -->
 						<div class="single-service-list">
-							<img src="img/service-img-2.jpg" alt="" style="width: 100%; height: 150px;">
+							<img src="img/service-img-2.jpg" alt="">
 							<div class="service-meta">
 								<h4>Gutter cleaning</h4>
 							</div>
@@ -220,7 +216,7 @@
 						</div>
 						<!-- End Single Service List 2 -->
 						<div class="single-service-list">
-							<img src="img/service-img-3.jpg" alt="" style="width: 100%; height: 150px;">
+							<img src="img/service-img-3.jpg" alt="">
 							<div class="service-meta">
 								<h4>Gutter cleaning</h4>
 							</div>
@@ -228,7 +224,7 @@
 						</div>
 						<!-- End Single Service List 3 -->
 						<div class="single-service-list">
-							<img src="img/service-img-4.jpg" alt="" style="width: 100%; height: 150px;">
+							<img src="img/service-img-4.jpg" alt="">
 							<div class="service-meta">
 								<h4>Gutter cleaning</h4>
 							</div>
@@ -236,7 +232,7 @@
 						</div>
 						<!-- End Single Service List 4 -->
 						<div class="single-service-list">
-							<img src="img/service-img-1.jpg" alt="" style="width: 100%; height: 150px;">
+							<img src="img/service-img-1.jpg" alt="">
 							<div class="service-meta">
 								<h4>Roof Repairs & Maintenance</h4>
 							</div>
@@ -408,35 +404,40 @@
 						<p>Book us online 24/7 or email us and we'll get back to you shortly</p>
 					</div>
 					<!-- End Contact Text -->
-					<form id="contact-form">
+					<div class="conatact-us-form">
+					<form id="contact-form" class="contact-form" action="contact-form.php" method="POST">
+						<div class="error-container"></div>
 					<div class="row">
 						<div class="col-lg-4 col-md-4 col-sm-12">
 							<div class="form-group">
-								<input type="text" id="inputName" name="name" class="form-controll contact-input" placeholder="Full Name" required="">
+								<input type="text" name="name" class="form-controll" placeholder="Full Name" required="">
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12">
 							<div class="form-group">
-								<input type="text" id="inputEmail" name="email" class="form-controll contact-input" placeholder="Email" required="">
+								<input type="email" name="email" class="form-controll" placeholder="Email" required="">
 							</div>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12">
 							<div class="form-group">
-								<input type="text" id="inputPhone" name="name" class="form-controll contact-input" placeholder="Phone" required="">
+								<input type="phone" name="phone" class="form-controll" placeholder="Phone">
 							</div>
 						</div>
 						<div class="col-lg-12 col-md-12 col-sm-12">
 							<div class="form-group">
-							<textarea name="comment" id="inputMessage" class="form-controll contact-input" rows="2" placeholder="Comments"></textarea>
-							<input type="text" name="_gotcha" style="display:none" />
+							<textarea class="form-controll" rows="2" placeholder="Comments"></textarea>
 							
-							<input type="submit" class="button" value="send">
 							</div>
 						</div>
-					
+						
 					</div>
+					<div class="text-center">
+		                  <button class="btn btn-primary button" type="submit">Submit</button>
+		               </div>
 					<!-- End Row 2 -->
 					</form>
+					</div>
+					
 				</div>
 				<!-- End Col -->
 			</div>
@@ -524,8 +525,6 @@
 	<script type="text/javascript" src="js/popper.min.js"></script>
 	<!-- Bootstrap -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<!-- Alertify -->
-	<script type="text/javascript" src="js/alertify.min.js"></script>
 	<!-- Scrollit -->
 	<script type="text/javascript" src="js/scrollIt.min.js"></script>
 	<!-- Waypoints-->
@@ -534,34 +533,6 @@
 	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
 	<!-- Owl Carousel -->
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script>
-		(function() {
-		  $(document).ready(function() {
-		    return $('#contact-form').submit(function(e) {
-		      var email, message, name;
-		      name = document.getElementById('inputName');
-		      email = document.getElementById('inputEmail');
-		      phone = document.getElementById('inputPhone');
-		      message = document.getElementById('inputMessage');
-		      if (!name.value || !email.value || !phone.value || !message.value) {
-		        alertify.error('Please check your entries');
-		        return false;
-		      } else {
-		        $.ajax({
-		          method: 'POST',
-		          url: '//formspree.io/shofikul.pro@gmail.com',
-		          data: $('#contact-form').serialize(),
-		          datatype: 'json'
-		        });
-		        e.preventDefault();
-		        $(this).get(0).reset();
-		        return alertify.success('Message sent');
-		      }
-		    });
-		  });
-
-		}).call(this);
-	</script>
 	<!-- Template custom -->
 	<script type="text/javascript" src="js/main.js"></script>
 </body>

@@ -43,23 +43,12 @@ margin-top: 10px;
     display: block;
 }
 
-.about-area:before {
-    width: 54%;
-    height: 46%;
-    left: 101px;
-}
 
 .about-text {
     margin-top: 8px;
 }
 .hero-content h1 span {
     display: block;
-}
-
-.about-area:before {
-    width: 54%;
-    height: 46%;
-    left: 190px;
 }
 
 .about-text {
@@ -81,11 +70,6 @@ margin-top: 10px;
 .single-testimonial {
     left: -60%;
     margin-top: 160px;
-}
-.about-area:before {
-    width: 57%;
-    height: 45%;
-    left: 169px;
 }
 }
 /* Mobile Layout: 320px. */

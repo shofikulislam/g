@@ -1,3 +1,24 @@
+/*
+   Template Name: Glorious Gutters HTML Template
+   Author: Glorious Gutters
+*/
+/* Table of Content
+==================================================
+1.    Typography
+2.    Global Styles
+3.    Header Top Bar
+4.    Header Part
+5.    Hero Area
+6.    About Area
+7.    Service Area
+8.    GGC Area
+9.    Freatures Area
+10.   Counter Area
+11.   Testimonial Area
+12.   Contact Area
+13.   Footer Area
+
+*/
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Lora:400,400i,700,700i');
 /* Typography
 ================================================== */
@@ -174,7 +195,7 @@ background: #000;
 position: relative;
 }
 .header-item {
-margin-top: 7px;
+margin-top: 6px;
 }
 .header-item p {
 font-size: 13px;
@@ -315,7 +336,7 @@ font-weight: 700;
     top:  0;
     left: 0;
     z-index:  -1;
-    opacity: .8;
+    opacity: .9;
     height: 100%;
     width: 100%;
     background-position: center;
@@ -335,7 +356,7 @@ font-weight: 700;
 
 .hero-content h1 {
     color: #fff;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
 }
 .button {
@@ -377,6 +398,7 @@ padding: 50px 0;
 background: #f5f5f5;
 box-shadow: 0px 0px 35px rgba(0,0,0,0.15);
 position: relative;
+z-index: 1;
 }
 .about-bg{
 background-image: url(../img/about-bg.jpg);
@@ -385,15 +407,17 @@ background-size: cover;
 width: 500px;
 height: 300px;
 background-repeat: no-repeat;
+position: relative;
 }
-.about-area:before {
+.about-bg:before {
   position: absolute;
-  left: 60px;
-  top: 60px;
-  width: 40%;
-  height: 77%;
+  left: -3%;
+  top: 4%;
+  width: 100%;
+  height: 100%;
   content: '';
   background: #98cb2b;
+  z-index: -2;
 }
 .about-text {
 padding: 25px 0;
@@ -440,6 +464,7 @@ margin-bottom: 35px;
 }
 .single-service-list img {
 height: 350px !important;
+width: 100%;
 }
 
 .service-area-content h3 span {
@@ -549,6 +574,8 @@ padding-bottom: 20px;
 position: relative;
 color: #fff;
 z-index: 1;
+height: 480px;
+width: 100%;
 }
 .features-area:after {
 position: absolute;
@@ -558,7 +585,7 @@ width: 100%;
 height: 100%;
 content: '';
 background: #000;
-opacity: .7;
+opacity: .8;
 z-index: -1;
 }
 /* ---------------------------------------------
@@ -614,7 +641,7 @@ z-index: 1;
     position:  absolute;
     top:  0;
     left: 0;
-    opacity: .7;
+    opacity: .9;
     height: 100%;
     width: 100%;
     background: #000000cc;
@@ -649,6 +676,7 @@ margin-top: 20px;
 display:  inline-block;
 font-size: 14px;
 }
+/*---------------Please don't change anything----------------*/
 .single-testimonial .owl-nav {
 color: #fff;
 }
@@ -659,8 +687,9 @@ left: -25px;
 right: -25px;
 }
 
-/* Contact Area
-================================================== */
+/* ---------------------------------------------
+==  Contact Area  ==
+--------------------------------------------- */
 .contact-text h3 span {
     color: #98cb2b;
 }
@@ -683,8 +712,15 @@ margin-top: 18px;
 display:  inline-block;
 padding: 8px 30px;
 }
-/* Footer Area
-================================================== */
+.conatact-us-form .btn-primary {
+    border-color: #98cb2b;
+}
+.conatact-us-form .btn-primary:hover {
+    border-color: #2e91fc;
+}
+/* ---------------------------------------------
+==  Footer Area  ==
+--------------------------------------------- */
 .footer-logo a img {
     width: 190px;
 }
