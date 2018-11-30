@@ -718,6 +718,8 @@ padding: 8px 30px;
 .conatact-us-form .btn-primary:hover {
     border-color: #2e91fc;
 }
+.alert-success.fade.in {
+  opacity: 1; }
 /* ---------------------------------------------
 ==  Footer Area  ==
 --------------------------------------------- */
