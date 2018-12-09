@@ -65,7 +65,7 @@
 
   $(".single-testimonial").owlCarousel({
   		items: 1,
-  		// autoplay: true,
+  		autoplay: true,
   		loop: true,
   		nav: true,
   		dots: false,

@@ -5,9 +5,6 @@
     font-size: 30px;
 }
 
-.single-features {
-    margin-bottom: 0;
-}
 .call span {
     font-size: 20px;
 }
@@ -66,17 +63,14 @@ margin-top: 10px;
     text-align: center;
 }
 
-.about-bg {display: inline-block;}
-
-.ggc-count h3 {font-size: 16px;}
-
-.single-features {
-    margin: 0;
+.about-bg {
+    display: inline-block;
 }
 
-.features-area {
-    height: 640px;
+.ggc-count h3 {
+    font-size: 16px;
 }
+
 
 }
 /* Mobile Layout: 320px. */
@@ -119,12 +113,6 @@ margin-top: 10px;
     font-size: 20px;
 }
 
-.features-area {
-    height: 960px;
-}
-.single-features {
-    margin-bottom: 0;
-}
 .single-testimonial {left: 0;}
 
 .footer-area {
@@ -134,14 +122,14 @@ margin-top: 10px;
 .footer-info {
     margin-top: 15px;
 }
-/*.features-area {
-    height: 870px;
-}*/
+.main-menu li a {
+    padding: 30px 12px;
+}
     
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
-    .call {
+.call {
     font-size: 16px;
     display: inline-block;
 }
@@ -150,20 +138,10 @@ margin-top: 10px;
     text-align: center;
 }
 
-.single-features {
-    margin: 0;
-}
 
-/*.features-area {
-    height: 720px;
-}*/
 .single-testimonial {
     left: 0;
 }
-/*.header-item p {visibility: hidden;}*/
-
-
-
 .footer-area {
     text-align: center;
 }
@@ -171,11 +149,10 @@ margin-top: 10px;
 .footer-area h5 {
     margin-top: 20px;
 }
-.features-area {
-    height: 850px;
-}
 
-.counter-icon {position: relative;}
+.counter-icon {
+    position: relative;
+}
 
 .counter-area {
     text-align: center;
