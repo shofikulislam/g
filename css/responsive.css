@@ -134,6 +134,9 @@ margin-top: 10px;
 .footer-info {
     margin-top: 15px;
 }
+/*.features-area {
+    height: 870px;
+}*/
     
 }
 /* Wide Mobile Layout: 480px. */
@@ -151,9 +154,9 @@ margin-top: 10px;
     margin: 0;
 }
 
-.features-area {
+/*.features-area {
     height: 720px;
-}
+}*/
 .single-testimonial {
     left: 0;
 }
@@ -168,9 +171,9 @@ margin-top: 10px;
 .footer-area h5 {
     margin-top: 20px;
 }
-/*.features-area {
+.features-area {
     height: 850px;
-}*/
+}
 
 .counter-icon {position: relative;}
 
