@@ -34,6 +34,7 @@
   		loop: true,
   		nav: true,
   		dots: false,
+      margin:7,
   		navText:[" <i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
       responsive: {
          0: {
@@ -64,7 +65,7 @@
 
   $(".single-testimonial").owlCarousel({
   		items: 1,
-  		autoplay: true,
+  		// autoplay: true,
   		loop: true,
   		nav: true,
   		dots: false,
@@ -100,14 +101,12 @@
          var $name = $form.find('.form-name'),
             $phone = $form.find('.form-phone'),
             $email = $form.find('.form-email'),
-            $subject = $form.find('.form-subject'),
             $message = $form.find('.form-message');
 
          $.post(action, {
                name: $name.val(),
                phone: $phone.val(),
                email: $email.val(),
-               subject: $subject.val(),
                message: $message.val()
             },
             function (data) {
@@ -118,7 +117,6 @@
                   $name.val('');
                   $phone.val('');
                   $email.val('');
-                  $subject.val('');
                   $message.val('');
                }
             }
